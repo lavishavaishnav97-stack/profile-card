@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    
+    <style>
+        .con{
+            height: 700px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            height: 80%;
+            width: 80%;
+            /* border: 1px solid black; */
+            display: flex;
+        }
+.left,.center,.right{
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.left{
+    background-color: navy;
+    width: 2%;
+    border-radius: 20px;
+}
+.center{
+    background-color: whitesmoke;
+    width: 63%;
+    font-size: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: navy;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.right{
+    border-left: 2px solid grey;
+    width: 35%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.top{
+    height: 30%;
+    /* border: 1px solid black; */
+}
+.bottom{
+    height: 70%;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.topin {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 90%;
+    background-color: navy;
+}
+.circle{
+    height: 123px;
+    width: 123px;
+    border-radius: 50%;
+    border: 5px solid navy;
+    position :absolute;
+    top: 120px;
+    right: 320px;
+    height: 125px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+img{
+    border: 2px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.bottom>h1{
+    text-align: center;
+}
+.button{
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button1{
+    height: 40%;
+    width: 40%;
+    background-color: navy;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+}
+.icon{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    background: linear-gradient( purple,red ,yellow,orange);
+    color: transparent;
+    background-clip: text;
+}
+.fa-github{
+    color: rgb(212, 47, 74);
+}
+.center>p{
+    margin-left: 30px;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-behance{
+    color: green;
+}
+
+
+</style>
+
+
+</head>
+<body>
+    
+</body>
+<div class="con">
+    <div class="box">
+        <div class="left"></div>
+        <div class="center"><p>Profile Card UI UX Design </p></div>
+        <div class="right">
+            <div class="top">
+                <div class="topin">
+                    <div class="circle">
+                        <div class="image">
+                            <img src="Capture.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom">
+            <h1>Web site Developer</h1>
+            <h1>Dezyne Ecole College</h1>
+            <h1> BCA 1 st Year</h1>
+            <div class="icon">
+            <i class="fa fa-brands fa-2x fa-facebook" ></i>
+            <i class="fa fa-brands fa-2x fa-instagram"></i>
+            <i class="fa fa-brands fa-2x fa-github" ></i>
+            <i class="fa fa-brands fa-2x fa-linkedin" ></i>
+            <i class="fa fa-brands fa-2x fa-behance" ></i>
+               
+            </div>
+            <div class="button">
+                <div class="button1">Subscribe</div>
+                <div class="button1">Message</div>
+            </div>
+            <div class="icon">
+        <i class="fa fa-solid fa-heart " ></i>60.4k
+            <i class="fa fa-solid fa-comment"></i>20k
+            <i class="fa fa-solid fa-share " ></i>12.6k
+            </div>
+        </div>
+            </div>
+        </div>
+            
+        
+    </div>
+</div>
+</html>
